@@ -117,9 +117,6 @@ def mystem_new(file, msg):
                                             print(smt)
                                             one['text'] = phpmorphy(smt, one)
                                             msg.remove(msg[0])
-                                            print('YES')
-                                            print(len(msg))
-                                            print(one['text'])
                                             break
         f1.write(one['text'])
     f1.close()
