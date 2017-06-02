@@ -7,7 +7,7 @@ def sketch_engine(word):
     dic = {}
     short_dic = {}
     short = []
-    payload={'username':'olgaleshchenko1', 'password':'hF8eC72pn9'}
+    payload={'username':'...', 'password':'...'}
     with requests.Session() as s:
         p = s.post('https://the.sketchengine.co.uk/login/', data=payload)
         link = 'https://the.sketchengine.co.uk/bonito/corpus/thes?corpname=preloaded%2Frutenten11_8&reload=&lemma='+word+'&lpos=&maxthesitems=60&minthesscore=0.0&includeheadword=0&clusteritems=0&minsim=0.15'
